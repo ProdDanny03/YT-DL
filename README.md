@@ -25,7 +25,7 @@ Download from releases section or build the binary yourself:
 ```bash
 git clone https://github.com/ProdDanny03/YT-DL.git
 
-cd project-name
+cd YT-DL
 
 pip install -r requirements.txt
 
