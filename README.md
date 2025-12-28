@@ -1,6 +1,7 @@
 # YT Downloader
 
 ## Table Of Contents
+
 - [YT Downloader](#yt-downloader)
   - [Table Of Contents](#table-of-contents)
   - [About](#about)
@@ -13,15 +14,17 @@
 This is a simple audio/video downloader for (but not limited to) youtube
 
 ## Features
-
-- Format selection
-- Link parsing (separates video/audio from playlists)
-- Downloads to Video/Music folder automatically
+| Features          | Description                                                 |
+| :---------------- | :---------------------------------------------------------- |
+| Format Selection  | Select format to download file in                           |
+| Link Parsing      | Automatically separates video/audio from possible playlists |
+| Download Location | Automatically downloads videos/audio to Videos/Music        |
 
 ## Installation
 
 Download from releases section or build the binary yourself:
-(Microsoft Visual Studio MSVC and python3.13 is required to build)
+> *Microsoft Visual Studio MSVC and python3.13 is required to build*
+
 ```bash
 git clone https://github.com/ProdDanny03/YT-DL.git
 
