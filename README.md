@@ -21,7 +21,7 @@ This is a simple audio/video downloader for (but not limited to) youtube
 ## Installation
 
 Download from releases section or build the binary yourself:
-(Microsoft Visual Studio MSVC is required to build)
+(Microsoft Visual Studio MSVC and python3.13 is required to build)
 ```bash
 git clone https://github.com/ProdDanny03/YT-DL.git
 
