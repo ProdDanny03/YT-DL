@@ -39,9 +39,19 @@ class MainWindow(QWidget):
 
         # ── Format selector (top-left)
         self.format_selector = QComboBox()
-        self.format_selector.addItems(
-            ["wav", "mp3", "m4a", "flac", "alac", "ogg", "mp4", "mov", "avi", "flv"]
-        )
+        self.format_selector.addItems([
+            "wav",
+            "mp3",
+            "m4a",
+            "flac",
+            "alac",
+            "ogg",
+            "mp4",
+            "mov",
+            "avi",
+            "flv",
+        ])
+
         self.format_selector.setFixedWidth(90)
         self.format_selector.setCurrentText(settings["format"])
         self.format_selector.currentTextChanged.connect(self.save_format)

@@ -12,7 +12,7 @@ def download_url(url: str, output_format: str):
         url = url.split("&list=")[0]
 
     if output_format in AUDIO_ONLY_FORMATS:
-        downloads_path = Path.home() / "Music"  
+        downloads_path = Path.home() / "Music"
     elif output_format in VIDEO_FORMATS:
         downloads_path = Path.home() / "Videos"
     else:
