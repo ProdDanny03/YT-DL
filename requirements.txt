@@ -5,6 +5,5 @@ pyside6==6.10.1
 pyside6-addons==6.10.1
 pyside6-essentials==6.10.1
 shiboken6==6.10.1
-uv==0.9.18
 yt-dlp==2025.12.8
 zstandard==0.25.0
